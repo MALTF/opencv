@@ -125,7 +125,6 @@ public class CharucoBoard extends Board {
         return getMarkerLength_0(nativeObj);
     }
 
-
     //
     // C++: vector_Point3f CharucoBoard::chessboardCorners
     //
@@ -133,7 +132,6 @@ public class CharucoBoard extends Board {
     public MatOfPoint3f get_chessboardCorners() {
         return MatOfPoint3f.fromNativeAddr(get_chessboardCorners_0(nativeObj));
     }
-
 
     //
     // C++: vector_vector_int CharucoBoard::nearestMarkerIdx
@@ -148,13 +146,10 @@ public class CharucoBoard extends Board {
 
     // Return type 'vector_vector_int' is not supported, skipping the function
 
-
     @Override
     protected void finalize() throws Throwable {
         delete(nativeObj);
     }
-
-
 
     // C++:  void cv::aruco::CharucoBoard::draw(Size outSize, Mat& img, int marginSize = 0, int borderBits = 1)
     private static native void draw_0(long nativeObj, double outSize_width, double outSize_height, long img_nativeObj, int marginSize, int borderBits);
