@@ -1123,8 +1123,7 @@ public class Xphoto {
     public static SimpleWB createSimpleWB() {
         return SimpleWB.__fromPtr__(createSimpleWB_0());
     }
-
-
+    
     //
     // C++:  Ptr_GrayworldWB cv::xphoto::createGrayworldWB()
     //
@@ -1136,7 +1135,6 @@ public class Xphoto {
     public static GrayworldWB createGrayworldWB() {
         return GrayworldWB.__fromPtr__(createGrayworldWB_0());
     }
-
 
     //
     // C++:  Ptr_LearningBasedWB cv::xphoto::createLearningBasedWB(String path_to_model = String())
@@ -1161,7 +1159,6 @@ public class Xphoto {
         return LearningBasedWB.__fromPtr__(createLearningBasedWB_1());
     }
 
-
     //
     // C++:  void cv::xphoto::applyChannelGains(Mat src, Mat& dst, float gainB, float gainG, float gainR)
     //
@@ -1179,9 +1176,6 @@ public class Xphoto {
     public static void applyChannelGains(Mat src, Mat dst, float gainB, float gainG, float gainR) {
         applyChannelGains_0(src.nativeObj, dst.nativeObj, gainB, gainG, gainR);
     }
-
-
-
 
     // C++:  void cv::xphoto::bm3dDenoising(Mat src, Mat& dstStep1, Mat& dstStep2, float h = 1, int templateWindowSize = 4, int searchWindowSize = 16, int blockMatchingStep1 = 2500, int blockMatchingStep2 = 400, int groupSize = 8, int slidingStep = 1, float beta = 2.0f, int normType = cv::NORM_L2, int step = cv::xphoto::BM3D_STEPALL, int transformType = cv::xphoto::HAAR)
     private static native void bm3dDenoising_0(long src_nativeObj, long dstStep1_nativeObj, long dstStep2_nativeObj, float h, int templateWindowSize, int searchWindowSize, int blockMatchingStep1, int blockMatchingStep2, int groupSize, int slidingStep, float beta, int normType, int step, int transformType);
@@ -1244,5 +1238,4 @@ public class Xphoto {
 
     // C++:  void cv::xphoto::applyChannelGains(Mat src, Mat& dst, float gainB, float gainG, float gainR)
     private static native void applyChannelGains_0(long src_nativeObj, long dst_nativeObj, float gainB, float gainG, float gainR);
-
 }
