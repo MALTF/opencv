@@ -6,6 +6,7 @@ import java.util.logging.Logger;
 /**
  * This class is intended to provide a convenient way to load OpenCV's native
  * library from the Java bundle. If Blueprint is enabled in the OSGi container
+ * 
  * this class will be instantiated automatically and the init() method called
  * loading the native library.
  */
