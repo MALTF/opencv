@@ -33,3 +33,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## License
+<a href="LICENSE"><img src="https://img.shields.io/github/license/fstudio/clangbuilder.svg"></a>
+<a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg"></a>
+
+本项目遵循[MIT license](/LICENSE)，方便交流与学习。如果您发现本项目有侵犯您的知识产权，请与我取得联系，我会及时修改或删除。
